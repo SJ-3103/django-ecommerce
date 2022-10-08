@@ -11,6 +11,17 @@
 
 ```
     pip install django
+```
+
+### or install from requirements.txt file:
+
+```
+    pip install -r requirements.txt
+```
+
+## Create a project:
+
+```
     django-admin startproject project
 ```
 
@@ -19,4 +30,16 @@
 ```
     cd project
     py manage.py runserver 8080
+```
+
+## Create app in Django (in project dir):
+
+```
+    py manage.py startapp <app_name>
+```
+
+### Example:
+
+```
+    py manage.py startapp login
 ```
